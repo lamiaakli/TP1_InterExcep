@@ -27,7 +27,7 @@ public class Test {
 		System.out.println(cs2);
 		cs1.ajouterLiquide(7);
 		System.out.println(cs1);
-		CiterneSecurisee cs3=(CiterneSec)cs1.clone();
+		CiterneSec cs3=(CiterneSec)cs1.clone();
 		System.out.println(cs3);
 	}catch(IllegalArgumentException e)
 		{
