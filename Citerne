@@ -2,7 +2,7 @@ package Exercice2;
 
 import java.time.LocalDate;
 
-import tp1_Exercice1_Interfaces.EstComparable;
+import Exercice1.EstComparable;
 
 
 public class Citerne implements EstComparable,Cloneable {
